@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "LabTwin",
+    "tagline": "Spatial intelligence for laboratory",
+    "lang": "中文"
+  },
+  "scene": {
+    "lShape": "Sample 1 · L-shaped lab",
+    "corridor": "Sample 2 · Corridor lab (sketch)"
+  },
+  "tab": {
+    "space": "Space",
+    "library": "Library"
+  },
+  "camera": {
+    "top": "Top view",
+    "perspective": "3D preview",
+    "switchTo": "Switch to {{mode}}"
+  },
+  "hint": {
+    "top": "Left: select / drag · Right: pan · Wheel: zoom · R rotate · Del delete",
+    "perspective": "Left: orbit · Right: pan · Wheel: zoom",
+    "placing": "Click the floor to place · R rotate · Shift for multiple · Esc cancel"
+  },
+  "palette": {
+    "basic": "Basic components",
+    "custom": "Custom models",
+    "hint": "Click, then click the floor to place",
+    "customHint": "Drop a low-poly .glb into public/models/ and add one line to registry.ts. Modelling spec: docs/models.md.",
+    "legend": "Colours"
+  },
+  "component": {
+    "cabinet": "Cabinet",
+    "open-shelf": "Open shelf",
+    "bench": "Bench",
+    "fume-hood": "Fume hood",
+    "fridge": "Fridge / freezer",
+    "safety-cabinet": "Safety cabinet",
+    "sink": "Sink",
+    "equipment": "Equipment",
+    "sample-rotavap": "Rotary evaporator (sample)",
+    "glovebox": "Glovebox"
+  },
+  "param": {
+    "shelves": "Shelves",
+    "doors": "Doors",
+    "sashOpen": "Sash opening",
+    "ports": "Glove ports"
+  },
+  "panel": {
+    "selection": "Selection",
+    "entities": "Entities",
+    "empty": "Click an object in the scene or the list to inspect it. Pick a component on the left, then click the floor to place it.",
+    "code": "Location ID",
+    "type": "Type",
+    "label": "Label",
+    "dims": "Size W×D×H",
+    "position": "Position / rotation",
+    "subLocations": "Sub-locations"
+  },
+  "action": {
+    "rotate": "Rotate 90°",
+    "delete": "Delete"
+  },
+  "library": {
+    "title": "Component",
+    "hint": "Click a component in the showroom or the list below to see its registry entry. Colours live in src/theme/tokens.ts, icons in src/theme/icons.ts, sizes and params in registry.ts.",
+    "all": "All components",
+    "idPrefix": "ID prefix",
+    "source": "Source",
+    "parametric": "Parametric (generated in code)",
+    "color": "Colour",
+    "icon": "Icon",
+    "range": "Size range",
+    "params": "Params",
+    "editHint": "Colour: tokens.ts → color.entity; icon: icons.ts; default size/params: registry.ts. Save and the page reloads."
+  },
+  "entity": {
+    "CAB": "Cabinet",
+    "SHF": "Open shelf",
+    "BCH": "Bench",
+    "FHD": "Fume hood",
+    "FRZ": "Fridge / freezer",
+    "SAF": "Safety cabinet",
+    "SNK": "Sink",
+    "EQP": "Equipment"
+  },
+  "status": {
+    "demo": "Demo scene (no database connected)",
+    "connected": "Database connected"
+  }
+}

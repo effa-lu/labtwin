@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "LabTwin",
+    "tagline": "Spatial intelligence for laboratory",
+    "lang": "EN"
+  },
+  "scene": {
+    "lShape": "示例 1 · L 形实验室",
+    "corridor": "示例 2 · 走廊型实验室（手绘图）"
+  },
+  "tab": {
+    "space": "空间",
+    "library": "模型库"
+  },
+  "camera": {
+    "top": "俯视",
+    "perspective": "3D 预览",
+    "switchTo": "切换到 {{mode}}"
+  },
+  "hint": {
+    "top": "左键点选 / 拖动构件 · 右键平移 · 滚轮缩放 · R 旋转 · Del 删除",
+    "perspective": "左键旋转视角 · 右键平移 · 滚轮缩放",
+    "placing": "点击地面放置 · R 旋转 · Shift 连续放置 · Esc 取消"
+  },
+  "palette": {
+    "basic": "基础构件",
+    "custom": "自定义模型",
+    "hint": "点击后在地面上单击放置",
+    "customHint": "把低模 .glb 放进 public/models/，在 registry.ts 加一行即可出现在这里。建模规范见 docs/models.md。",
+    "legend": "颜色"
+  },
+  "component": {
+    "cabinet": "柜子",
+    "open-shelf": "开放架",
+    "bench": "实验台",
+    "fume-hood": "通风柜",
+    "fridge": "冰箱 / 冰柜",
+    "safety-cabinet": "安全柜",
+    "sink": "水槽",
+    "equipment": "通用设备",
+    "sample-rotavap": "旋转蒸发仪（示例）",
+    "glovebox": "手套箱"
+  },
+  "param": {
+    "shelves": "层数",
+    "doors": "门数",
+    "sashOpen": "视窗开度",
+    "ports": "手套口"
+  },
+  "panel": {
+    "selection": "选中",
+    "entities": "构件",
+    "empty": "点击场景或列表中的构件查看信息；从左侧模型库选一个再点地面可以放置。",
+    "code": "位置 ID",
+    "type": "类型",
+    "label": "显示名",
+    "dims": "尺寸 W×D×H",
+    "position": "位置 / 旋转",
+    "subLocations": "子位置"
+  },
+  "action": {
+    "rotate": "旋转 90°",
+    "delete": "删除"
+  },
+  "library": {
+    "title": "构件详情",
+    "hint": "点击展厅中的构件或下方列表，查看它在注册表里的定义。颜色改 src/theme/tokens.ts，图标改 src/theme/icons.ts，尺寸与参数改 registry.ts。",
+    "all": "全部构件",
+    "idPrefix": "ID 前缀",
+    "source": "来源",
+    "parametric": "参数化（代码生成）",
+    "color": "颜色",
+    "icon": "图标",
+    "range": "尺寸范围",
+    "params": "参数",
+    "editHint": "颜色：tokens.ts → color.entity；图标：icons.ts；默认尺寸/参数：registry.ts。改完保存，页面自动刷新。"
+  },
+  "entity": {
+    "CAB": "柜",
+    "SHF": "开放架",
+    "BCH": "台面",
+    "FHD": "通风柜",
+    "FRZ": "冰箱/冰柜",
+    "SAF": "安全柜",
+    "SNK": "水槽",
+    "EQP": "设备"
+  },
+  "status": {
+    "demo": "演示场景（未连接数据库）",
+    "connected": "已连接数据库"
+  }
+}

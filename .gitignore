@@ -1,0 +1,28 @@
+node_modules
+dist
+dist-ssr
+coverage
+*.local
+
+# env — never commit keys
+.env
+.env.*
+!.env.example
+
+# playwright
+test-results
+playwright-report
+e2e/__screenshots__/*.png
+blob-report
+playwright/.cache
+
+# editor / os
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.log
+
+# ts build info
+*.tsbuildinfo
